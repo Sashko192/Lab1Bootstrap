@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    }
+    .navbar {
+    background:#000000;
+    }
+    .navbar1{
+        background:#080808;
+        height: 300px;
+    }
+    .nav-link,
+    .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    }
+    .nav-link {
+    margin-right: 1em !important;
+    }
+    .nav-link:hover {
+    color: #585757;
+    }
+    .navbar-collapse {
+        justify-content: flex-end;
+        }
+/*Caroseul*/
+.my-caroseul{
+    padding: 0;
+}
+.my-caroseul .carousel-item{
+    max-height: 400px;
+}
+.my-caroseul .carousel-item img {
+    object-fit: cover;
+}
+/* Photo-text */
+.containerto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .text-section {
+    width: 50%;
+    padding-right: 50px; /* Регулюйте за потреби */
+    padding-left: 50px;
+  }
+  .image-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .image-section img {
+    width: 450px;
+    height: 500px;
+  }
+/* Job TEXT */
+.text-position{
+    justify-content: center;
+    padding-top: 45px;
+}
+.text-position h2{
+    color:white;
+    text-align: center;
+}
+.text-position p{
+    color:white;
+    text-align: center;
+}
+/* Photo table */
+
+.photo-table img{
+    width: 400px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.page-footer {
+            background-color: #000000;
+            color: #ccc;
+            padding: 60px 0 30px;
+            }
+            .footer-copyright {
+            color: #666;
+            padding: 40px 0;
+            }        
+   
